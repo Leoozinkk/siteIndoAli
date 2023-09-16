@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#ratoazul{
+    background-image: url(indoalicut.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#textplaceholder{
+    border-radius: 5%;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background-color: white;
+    padding: 20px;
+    margin-left: 10%;
+    transform: translateY(-50%);
+}
+
+#text > p{
+    font-size: 200%;
+}
+
+#buttonplaceholder{
+    display: flex;
+    margin-left: 13%;
+    width: 70%;
+    justify-content: space-between;
+}
+
+button{
+    font-size: 500%;
+}
+
+a{
+    text-decoration: none;
+}
